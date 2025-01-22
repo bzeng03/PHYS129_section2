@@ -49,7 +49,7 @@ plot_time(dist=random.uniform(-5, 5), name="time_complexity_2")
 # Gaussian distribution centered at the origin with variance 1
 plot_time(dist=random.gauss(mu=0, sigma=1), name="time_complexity_3")
 
-def plot_hist(name, dist):
+def plot_hist(dist):
     graham_scan_time = []
     jarvis_march_time = []
     quickhull_time = []
@@ -64,11 +64,20 @@ def plot_hist(name, dist):
         monotone_chain_time.append(time_function(cloud.monotone_chain()))
 
     plt.hist(graham_scan_time)
-    #plt.hist(jarvis_march_time)
-    #plt.hist(quickhull_time)
-    #plt.hist(monotone_chain_time)
-    plt.savefig(f"{name}.png", format="png")
+    plt.savefig("graham_scan.png", format="png")
     plt.clf()
 
-plot_hist("time_complexity_4", dist=random.uniform(-5, 5))
+    plt.hist(jarvis_march_time)
+    plt.savefig("jarvis_march.png", format="png")
+    plt.clf()
+
+    plt.hist(quickhull_time)
+    plt.savefig("quickhull.png", format="png")
+    plt.clf()
+
+    plt.hist(monotone_chain_time)
+    plt.savefig("monotone_chain.png", format="png")
+    plt.clf()
+
+plot_hist(dist=random.uniform(-5, 5))
 
