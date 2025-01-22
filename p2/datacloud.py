@@ -149,30 +149,11 @@ def plot_convex_hull(points, hull, title):
     plt.grid(True)
     plt.show()
 
-import matplotlib.pyplot as plt
 
-def plot_points(points):
-    # Extract x and y coordinates from the points
-    x_coords, y_coords = zip(*points)
-
-    # Create the plot
-    plt.figure(figsize=(8, 6))  # Set figure size
-    plt.scatter(x_coords, y_coords, color="blue", label="Points", s=50)  # Scatter plot of points
-
-    # Add labels, title, and legend
-    plt.xlabel("X-axis")
-    plt.ylabel("Y-axis")
-    plt.title("Scatter Plot of Points")
-    plt.legend()
-    plt.grid(True)  # Add grid for better visualization
-
-    # Show the plot
-    plt.show()
 
 if __name__ == "__main__":
      file_path = "mesh.dat"
      points = file_to_tuples(file_path)
-     plot_points(points)
      cloud = DataCloud(points)
     
      print("Graham Scan:", cloud.graham_scan())
