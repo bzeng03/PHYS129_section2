@@ -1,55 +1,137 @@
-  449  mkdir section2
-  450  git init
-  451  rm git
-  452  rm -rf /root/Desktop/host/.git/
-  453  cd section2
-  454  git init
-  455  touch datacloud.py
-  456  python3 datacloud.py
-  457  python datacloud.py
-  458  python datacloud.py
-  459  python datacloud.py
-  460  python datacloud
-  461  python datacloud.py
-  462  python datacloud.py
-  463  mkdir p1
-  464  mv datacloud.py p1
-  465  mv mesh.dat p1
-  466  mkdir p2
-  467  git add .
-  468  git commit -m "p1"
-  469  git remote add origin https://github.com/bzeng03/PHYS129_section2.git
-  470  git checkout -b main
-  471  git push -u origin main
-  472  touch generate_point_cloud.py p2
-  473  python p2/generate_point_cloud.py
-  474  python p2/generate_point_cloud.py
-  475  touch time_complexity.py
-  476  mv time_complexity.py p2
-  477  cp p1/datacloud.py p2
-  478  cp p1/mesh.dat p2
-  479  python p2/time_complexity
-  480  python p2/time_complexity.py
-  481  python p2/time_complexity.py
-  482  python p2/time_complexity.py
-  483  python p2/time_complexity.py
-  484  python p2/time_complexity.py
-  485  python p2/time_complexity.py
-  486  python p2/time_complexity.py
-  487  python p2/time_complexity.py
-  488  python p2/time_complexity.py
-  489  python p2/time_complexity.py
-  490  python p2/time_complexity.py
-  491  python p2/time_complexity.py
-  492  python p2/time_complexity.py
-  493  python p2/time_complexity.py
-  494  python p2/time_complexity.py
-  495  python p2/time_complexity.py
-  496  python p2/time_complexity.py
-  497  python p2/time_complexity.py
-  498  git add .
-  499  git commit -m "p2"
-  500  git push origin main
-  501  cd section2
-  502  touch history.txt
-  503  history >> history.txt
+  379  mkdir section2
+  380  git init
+  381  rm git
+  382  rm -rf /root/Desktop/host/.git/
+  383  cd section2
+  384  git init
+  385  touch datacloud.py
+  386  python3 datacloud.py
+  387  python datacloud.py
+  388  python datacloud.py
+  389  python datacloud.py
+  390  python datacloud
+  391  python datacloud.py
+  392  python datacloud.py
+  393  mkdir p1
+  394  mv datacloud.py p1
+  395  mv mesh.dat p1
+  396  mkdir p2
+  397  git add .
+  398  git commit -m "p1"
+  399  git remote add origin https://github.com/bzeng03/PHYS129_section2.git
+  400  git checkout -b main
+  401  git push -u origin main
+  402  touch generate_point_cloud.py p2
+  403  python p2/generate_point_cloud.py
+  404  python p2/generate_point_cloud.py
+  405  touch time_complexity.py
+  406  mv time_complexity.py p2
+  407  cp p1/datacloud.py p2
+  408  cp p1/mesh.dat p2
+  409  python p2/time_complexity
+  410  python p2/time_complexity.py
+  411  python p2/time_complexity.py
+  412  python p2/time_complexity.py
+  413  python p2/time_complexity.py
+  414  python p2/time_complexity.py
+  415  python p2/time_complexity.py
+  416  python p2/time_complexity.py
+  417  python p2/time_complexity.py
+  418  python p2/time_complexity.py
+  419  python p2/time_complexity.py
+  420  python p2/time_complexity.py
+  421  python p2/time_complexity.py
+  422  python p2/time_complexity.py
+  423  python p2/time_complexity.py
+  424  python p2/time_complexity.py
+  425  python p2/time_complexity.py
+  426  python p2/time_complexity.py
+  427  python p2/time_complexity.py
+  428  git add .
+  429  git commit -m "p2"
+  430  git push origin main
+  431  cd section2
+  432  touch history.txt
+  433  history >> history.txt
+  434  python3 p2/time_complexity.py
+  435  ython3 p2/time_complexity.py
+  436  python p2/time_complexity.py
+  437  mkdir plots
+  438  add .
+  439  git add .
+  440  git commit -m "p2*"
+  441  git push origin main
+  442  history > history.txt
+  443  mkdir p2
+  444  touch p2.py
+  445  mv p2.py p2
+  446  python p2/p2.py
+  447  python p2/p2.py
+  448  python p2/p2.py
+  449  python p2/p2.py
+  450  python p2/p2.py
+  451  python p2/p2.py
+  452  python p2/p2.py
+  453  python p2/p2.py
+  454  python p2.py
+  455  python p2/p2.py
+  456  mkdir history.txt
+  457  git clone https://github.com/bzeng03/P2.git
+  458  cd P2
+  459  rm Problem1
+  460  rm -f Problem1
+  461  rm -rf Problem1
+  462  cd ..
+  463  mv ps1/P2/Problem1 P2
+  464  cp P2/Problem1 ps1/P2
+  465  cd P2
+  466  git add .
+  467  git commit -m "p2"
+  468  git push origin main
+  469  cd sectino2
+  470  cd section2
+  471  python p2/p2.py
+  472  python p2/p2.py
+  473  python p2/p2.py
+  474  python p2/p2.py
+  475  python p2/p2.py
+  476  python p2/p2.py
+  477  python p2/p2.py
+  478  python p2/p2.py
+  479  touch surface_mesh.py p2
+  480  python p2/surface_mesh.py
+  481  python p2/surface_mesh.py
+  482  python p2/surface_mesh.py
+  483  python p2/surface_mesh.py
+  484  python p2/surface_mesh.py
+  485  python p2/surface_mesh.py
+  486  python p2/surface_mesh.py
+  487  python p2/surface_mesh.py
+  488  python p2/surface_mesh.py
+  489  python p2/surface_mesh.py
+  490  python p2/surface_mesh.py
+  491  python p2/surface_mesh.py
+  492  python p2/surface_mesh.py
+  493  ython p2/surface_mesh.py
+  494  python p2/surface_mesh.py
+  495  python p2/surface_mesh.py
+  496  python p2/surface_mesh.py
+  497  touch volume_mesh.py
+  498  python volume_mesh.py
+  499  python volume_mesh.py
+  500  python volume_mesh.py
+  501  cd sectino2
+  502  cd section2
+  503  python volume_mesh.py
+  504  python volume_mesh.py
+  505  python volume_mesh.py
+  506  python volume_mesh.py
+  507  python volume_mesh.py
+  508  python volume_mesh.py
+  509  python volume_mesh.py
+  510  python volume_mesh.py
+  511  python volume_mesh.py
+  512  python volume_mesh.py
+  513  python volume_mesh.py
+  514  python volume_mesh.py
+  515  history > history.txt

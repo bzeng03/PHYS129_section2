@@ -1,0 +1,1 @@
+Graham Scan usually takes the shortest time. Jarvis March usually takes the longest time.
